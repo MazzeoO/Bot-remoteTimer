@@ -78,3 +78,9 @@ Use com cuidado para evitar desligamentos acidentais.
 - tim.py
 - system.py
 - config.py
+```
+
+
+## Autoria
+Esse projeto foi desenvolvido por **Gabriel Mazzeo**
+https://github.com/MazzeoO
