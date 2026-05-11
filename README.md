@@ -63,6 +63,15 @@ pip install pyTelegramBotAPI
 3. Esperar até que no chat do telegram o bot envie "Bot iniciado...".
 
 
+## Como criar o Bot
+1. No Telegram, pesquise "BotFather"
+2. Envie o comando "/newbot"
+3. Digite o nome e username do bot
+
+Após isso, o bot já foi criado. Basta procurar o **token** de acesso à API do bot e colá-lo na variável "**TOKEN**" do arquivo **config.py**.
+
+Ao inserir o token do bot no arquivo, basta ir até o arquivo **main.py** e executar o código. No chat do Telegram, o usuário deverá digitar o comando "**/id**" para adquirir o ID do chat. Após isso, o usuário deverá colar o ID na variável **Chat_ID** do **config.py**, assim o bot sempre responderá nesse chat com todas as suas funções.
+
 ## AVISO
 
 Este projeto executa comandos no sistema operacional Windows.
