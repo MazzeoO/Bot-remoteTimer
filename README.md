@@ -20,15 +20,22 @@ visualizar o tempo restante
 acrescentar tempo
 desligar o computador
 cancelar o desligamento
+mudar o volume da maquina
+silenciar o volume da maquina
 
 
 ## Comandos 
 Os comandos utilizados pelo bot:
 
 - /start -> dá as opções iniciais
+- /id -> Para visualizar o ID do chat
 - /settime X -> Define o tempo
 - /time -> para visualizar o tempo
 - /acres X -> acrescenta mais tempo
+- /setvol X -> Definir um volume
+- /volup -> Aumenta o volume em 1%
+- /voldown -> Abaixa o volume em 1%
+- /mt -> Muta e Desmuta o som
 - /exit -> desliga o computador em 60s
 - /cancel -> cancela o /exit
 
@@ -37,6 +44,7 @@ Os comandos utilizados pelo bot:
 
 - python
 - pyTelegramBotAPI (telebot)
+- pycaw
 - telegram Bot API
 - Windows 10/11
   
@@ -45,19 +53,26 @@ Os comandos utilizados pelo bot:
 - time
 - threading
 - os
+- ctypes
 
 
 ### instalação
+```bash
+pip install -r requeriments.txt
+```
+
+ou
 
 ```bash
 pip install pyTelegramBotAPI
+pip install pycaw
 ```
 
 
 ## Como Executar
 1. para executar, o usuario deverá instalar a dependência:
 ```bash
-pip install pyTelegramBotAPI
+pip install -r requeriments.txt
 ```
 2. após isso, o usuario terá que configurar o arquivo **config.py** e colocar o **TOKEN** do seu bot e o **Chat_ID** do seu chatBot.
 3. Esperar até que no chat do telegram o bot envie "Bot iniciado...".
@@ -87,6 +102,7 @@ Use com cuidado para evitar desligamentos acidentais.
 - tim.py
 - system.py
 - config.py
+- volume.py
 ```
 
 
